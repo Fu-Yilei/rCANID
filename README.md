@@ -64,7 +64,8 @@ Detect novel sequence insertions.
 
 ---
 ### Reference
-rCANID: read Clustering and Assembly-based Novel Insertion Detection tool *BIBM 2018*
+rCANID: read Clustering and Assembly-based Novel Insertion Detection tool. *(BIBM 2018 Under Review)*
+
 ---
 ### Contact
 For advising, bug reporting and requiring help, please contact ydwang@hit.edu.cn or tjiang@hit.edu.cn
