@@ -128,6 +128,8 @@ def run_real_rCANID(p1, p2):
 		# breakpoint = int(seq[1])
 		# print seq
 		chr = seq[0]
+		if chr != '1':
+			continue
 		breakpoint = int(seq[1])
 		LEN = seq[2]
 		# read_count = int(seq[3].split('.')[0])
@@ -301,4 +303,4 @@ def cmp_sniffles_rCANID(p1, p2):
 	print("[INFO] total number is %d"%num)
 
 if __name__ == '__main__':
-	run_sim_rCANID(sys.argv[1], sys.argv[2])
+	run_real_rCANID(sys.argv[1], sys.argv[2])
